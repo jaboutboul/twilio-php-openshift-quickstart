@@ -40,7 +40,7 @@
                 $('#ajax_result').removeClass('error').text("Success! You should receive a text shortly.");
             }
             else {
-                $('#ajax_result').addClass('error').text("Something went wrong. Make sure you've included your credentials and a Twilio number in the 'credentials.php' file.");
+                $('#ajax_result').addClass('error').text("Something went wrong. Is the phone number you entered valid? Have you included your credentials and an outgoing Twilio number in the 'credentials.php' file?");
             };
         });
 
