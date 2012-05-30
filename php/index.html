@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html>
 <head>
-    <title>Download our app</title>
+    <title>Twilio PHP on OpenShift</title>
 	<link rel="icon" type="image/png" href="images/Twilio_64.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <style>
@@ -15,7 +15,7 @@
 <body>
     <div class="container">
 		<img src="images/logobrand.png">
-        <h1>Twilio PHP on OpenShift</h1>
+        <h1>Enter a Phone Number Below to Receive an SMS</h1>
         <form class="well form-inline" id="download_form" action="send-sms.php" method="POST">
             <p><label><input id="phone_number_input" type="tel" name="phone_number" placeholder="Phone number"></label>
 			<button class="btn btn-primary">Send</button></p>  
@@ -37,7 +37,7 @@
         // for simplicity, treat all non "success" HTTP responses as errors
         ajax_request.complete(function(data, statusText) {
             if (statusText == 'success') {
-                $('#ajax_result').removeClass('error').text("You should receive a text shortly.");
+                $('#ajax_result').removeClass('error').text("Success! You should receive a text shortly.");
             }
             else {
                 $('#ajax_result').addClass('error').text("Something went wrong. Make sure you've included your credentials and a Twilio number in the 'credentials.php' file.");
