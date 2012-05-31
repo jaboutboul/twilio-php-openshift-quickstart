@@ -29,7 +29,9 @@ Push to deploy on OpenShift:
 
 	git push
 
-If for some reason you have trouble pushing to OpenShift after you've added the upstream repo you can do ```git push -u origin master```
+If for some reason you have trouble pushing to OpenShift after you've added the upstream repo you can do:
+
+	git push -u origin master
 
 We have a sample app in the twilio/php directory 'index.html' and 'send-sms.php', take a look at them if you like. When you load your app, you should be greeted by a form to input your phone number. Once you submit the form the 'send-sms.php' part of the application should run and send you a text message via the Twilio API.
 
