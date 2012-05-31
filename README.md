@@ -36,6 +36,6 @@ Getting (Quickly) Started with Twilio on OpenShift
 
 Let's check it out. Load your app at:
 
-	```http://twilio-$your_login.rhcloud.com```
+	http://twilio-$your_login.rhcloud.com
 
 Please send all questions/comments/requests for improvements to this quickstart to jack@twilio.com or @jackfoundation
