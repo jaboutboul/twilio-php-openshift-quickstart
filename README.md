@@ -8,9 +8,13 @@ Getting (Quickly) Started with Twilio on OpenShift
 --------------------
 1. Sign up for a Twilio account at http://www.twilio.com. In the account dashboard, note your 'Account SID' and 'Auth Token' (looks like a little key). We will need these later.
 
-2. Sign up for an openshift account at http://openshift.redhat.com/
+2. Sign up for an openshift account:
 
-3. Install the OpenShift Client tools on your machine if you don't have them. You can find more info here: https://openshift.redhat.com/app/getting_started
+	http://openshift.redhat.com/
+
+3. Install the OpenShift Client tools on your machine if you don't have them. You can find more info here: 
+
+	https://openshift.redhat.com/app/getting_started
 
 4. Create an OpenShift PHP application:
 
