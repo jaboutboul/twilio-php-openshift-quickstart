@@ -10,7 +10,7 @@ Sign up for a Twilio account at http://www.twilio.com. In the account dashboard,
 
 Sign up for an openshift account: http://openshift.redhat.com/
 
-Install the OpenShift Client tools on your machine if you don't have them. You can find more info [here](https://openshift.redhat.com/app/getting\_started)
+Install the OpenShift Client tools on your machine if you don't have them. You can find more info https://openshift.redhat.com/app/getting_started
 
 Create an OpenShift PHP application:
 
@@ -19,11 +19,8 @@ Create an OpenShift PHP application:
 Add this upstream Twilio Quickstart repo to your app:
 
 	cd twilio/php
-
 	rm -rf *
-
 	git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git
-
 	git pull -s recursive -X theirs upstream master
 
 Let's input our account credentials in the 'credentials.php' file in twilio/php. Copy and paste your Account SID, Auth Token, and a Twilio number you've purchased, or a verified outgoing Caller ID.
