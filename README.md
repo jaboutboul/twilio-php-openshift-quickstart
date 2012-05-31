@@ -14,23 +14,23 @@ Install the OpenShift Client tools on your machine if you don't have them. You c
 
 Create an OpenShift PHP application:
 
-	```rhc-create-app -a twilio -t php-5.3 -l $your_login```
+	rhc-create-app -a twilio -t php-5.3 -l $your_login
 
 Add this upstream Twilio Quickstart repo to your app:
 
-	```cd twilio/php```
+	cd twilio/php
 
-	```rm -rf *```
+	rm -rf *
 
-	```git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git```
+	git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git
 
-	```git pull -s recursive -X theirs upstream master```
+	git pull -s recursive -X theirs upstream master
 
 Let's input our account credentials in the 'credentials.php' file in twilio/php. Copy and paste your Account SID, Auth Token, and a Twilio number you've purchased, or a verified outgoing Caller ID.
 
 Push to deploy on OpenShift:
 
-	```git push```
+	git push
 
 We have a sample app in the twilio/php directory 'index.html' and 'send-sms.php', take a look at them if you like. When you load your app, you should be greeted by a form to input your phone number. Once you submit the form the 'send-sms.php' part of the application should run and send you a text message via the Twilio API.
 
