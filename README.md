@@ -18,15 +18,14 @@ Getting (Quickly) Started with Twilio on OpenShift
 
 4. Create an OpenShift PHP application:
 
-	```rhc-create-app -a twilio -t php-5.3 -l $your_login```
+```rhc-create-app -a twilio -t php-5.3 -l $your_login```
 
 5. Add this upstream Twilio Quickstart repo to your app:
 
-	```cd twilio/php
-	rm -rf *
-	git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git
-	git pull -s recursive -X theirs upstream master
-	```
+```cd twilio/php
+rm -rf *
+git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git
+git pull -s recursive -X theirs upstream master```
 
 6. Let's input our account credentials in the 'credentials.php' file in twilio/php. Copy and paste your Account SID, Auth Token, and a Twilio number you've purchased, or a verified outgoing Caller ID.
 
@@ -38,6 +37,6 @@ Getting (Quickly) Started with Twilio on OpenShift
 
 Let's check it out. Load your app at:
 
-	```http://twilio-$your_login.rhcloud.com```
+```http://twilio-$your_login.rhcloud.com```
 
 Please send all questions/comments/requests for improvements to this quickstart to jack@twilio.com
