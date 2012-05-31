@@ -19,6 +19,7 @@ Getting (Quickly) Started with Twilio on OpenShift
 5. Add this upstream Twilio Quickstart repo to your app:
 
 ```cd twilio/php```
+
 ```rm -rf *```
 ```git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git```
 ```git pull -s recursive -X theirs upstream master```
