@@ -10,7 +10,7 @@ Sign up for a Twilio account at http://www.twilio.com. In the account dashboard,
 
 Sign up for an openshift account: http://openshift.redhat.com/
 
-Install the OpenShift Client tools on your machine if you don't have them. You can find more info https://openshift.redhat.com/app/getting_started
+Install the OpenShift Client tools on your machine if you don't have them. You can find more info here: https://openshift.redhat.com/app/getting_started
 
 Create an OpenShift PHP application:
 
