@@ -21,7 +21,7 @@ Getting (Quickly) Started with Twilio on OpenShift
 	cd twilio/php
 	rm -rf *
 	git remote add upstream -m master git://github.com/jaboutboul/twilio-php-openshift-quickstart.git
-	git pull -s recursive -X theirs upstream master```
+	git pull -s recursive -X theirs upstream master
 
 6. Let's input our account credentials in the 'credentials.php' file in twilio/php. Copy and paste your Account SID, Auth Token, and a Twilio number you've purchased, or a verified outgoing Caller ID.
 
